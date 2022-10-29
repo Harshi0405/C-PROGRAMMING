@@ -3,8 +3,8 @@ int main()
 {
 int n;
 scanf("%d",&n);
-if(n%2==0)
-printf("It is a even number");
+if(n%2==0 && n>0)
+printf("It is a even positive number");
 else
 printf("It is a odd number");
 return 0;
